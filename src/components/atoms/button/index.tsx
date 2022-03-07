@@ -8,11 +8,10 @@ label: string
 
 const Button = ({ label }: ButtonProps): JSX.Element => {
   return (
-    <a href=""><button className={(styles.container)}>
+    <a href="/newcoin"><button className={(styles.container)}>
     <Typography className={(styles.label)} text={label} variant={TypographyVariant.label}/>
     </button></a>
-  
-  )
+    )
 }
 
 export { Button }
